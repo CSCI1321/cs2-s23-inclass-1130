@@ -4,6 +4,10 @@ public class Rectangle extends Shape {
   private double w;
   private double h;
 
+  public boolean overlap(Shape other) {
+    return false;
+  }
+
   public Rectangle(double _x, double _y,
                    double _w, double _h) {
     super(_x,_y);

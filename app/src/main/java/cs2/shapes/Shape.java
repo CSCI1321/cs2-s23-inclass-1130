@@ -8,6 +8,7 @@ public abstract class Shape {
   }
   public abstract double area();
   public abstract double perimeter();
+  public abstract boolean overlap(Shape other);
   @Override
   public String toString() { return "Shape!"; }
 }
