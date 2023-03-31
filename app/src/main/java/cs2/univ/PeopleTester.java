@@ -1,7 +1,6 @@
-package cs2;
+package cs2.univ;
 
 import java.util.*;
-import cs2.univ.*;
 
 public class PeopleTester {
 	public static void main(String[] args) {
