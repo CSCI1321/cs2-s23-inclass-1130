@@ -21,5 +21,13 @@ public class PeopleTester {
 		for(Person p : people) {
 			System.out.println(p);
 		}
+		System.out.println(me.getSalary());
+		me.pay();
+
+		StudentWorker w = new StudentWorker("Miley", "Cyrus", "mcyrus");
+		w.pay();
+
+		Payable[] payees = { me, w };
+
 	}
 }

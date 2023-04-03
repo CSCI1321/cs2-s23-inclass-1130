@@ -1,4 +1,5 @@
 package cs2.shapes;
+import java.util.*;
 public class ShapeTester {
   public static void main(String[] args) {
     Circle c = new Circle(0,0,1);
@@ -14,5 +15,12 @@ public class ShapeTester {
     }
     System.out.println(shapes[0] instanceof Rectangle);
     System.out.println(s.toString());
+    for(Shape x : shapes) {
+      System.out.println(x.getClass());
+    }
+
+    HashSet<Integer> set = new HashSet<Integer>();
+    //Set<Integer> set2 = new Set<Integer>();
+
   }
 }
