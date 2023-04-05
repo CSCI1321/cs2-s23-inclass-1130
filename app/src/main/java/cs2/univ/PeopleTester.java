@@ -28,6 +28,9 @@ public class PeopleTester {
 		w.pay();
 
 		Payable[] payees = { me, w };
+		for(Payable p : payees) {
+			p.pay();
+		}
 
 	}
 }
