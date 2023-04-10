@@ -31,4 +31,9 @@ public class Rectangle extends Shape {
 
   public double area() { return w * h; }
   public double perimeter() { return 2 * (w + h); }
+
+  @Override
+  public String toString() {
+    return "Rectangle: area=" + area();
+  }
 }
