@@ -1,18 +1,15 @@
 package cs2.adt;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.EmptyStackException;
-
-import org.junit.jupiter.api.BeforeEach;
 
 public class StackTester {
   private Stack<Integer> s;
 
   @BeforeEach
   void init() {
-    s = new ArrayStack<Integer>();
+    s = new LinkedStack<Integer>();
   }
 
   @Test
