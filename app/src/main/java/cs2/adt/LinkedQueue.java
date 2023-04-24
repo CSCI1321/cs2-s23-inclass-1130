@@ -20,7 +20,7 @@ public class LinkedQueue<T> implements Queue<T> {
   //Constructor
   public LinkedQueue() {
     head = null;
-    last = last;
+    last = null;
   }
 
   public void enqueue(T item) {
